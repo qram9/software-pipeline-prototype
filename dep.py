@@ -18,7 +18,6 @@
 # SCC detection etc need to be done by hand now.
 # At some point to introduce a more sophisticated Scoreboard so that non-pipelined units can be
 # handled properly etc.
-# Should work with python if tabulate is available. If tabulate is not available comment out.
 class Bundle(object):
     def __init__(self,slots=4):
         self.bundle = []
